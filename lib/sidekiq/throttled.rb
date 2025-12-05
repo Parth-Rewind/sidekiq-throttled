@@ -10,6 +10,7 @@ require_relative "./throttled/middlewares/server"
 require_relative "./throttled/patches/basic_fetch"
 require_relative "./throttled/patches/super_fetch"
 require_relative "./throttled/registry"
+require_relative "./throttled/patches/batch_semantics"
 require_relative "./throttled/version"
 require_relative "./throttled/worker"
 
